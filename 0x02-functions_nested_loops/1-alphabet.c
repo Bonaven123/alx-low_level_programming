@@ -6,7 +6,7 @@ void print_alphabet(void)
 {
 	int n;
 
-	for (n = 1; n <= 26; n++)
+	for (n = 0; n < 26; n++)
 	{
 		_putchar(n + 97);
 	}
