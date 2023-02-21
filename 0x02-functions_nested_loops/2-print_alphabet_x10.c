@@ -7,7 +7,7 @@ void print_alphabet_x10(void)
 	int counter;
 	int letter;
 
-	for (counter = 0; counter <= 10; counter++)
+	for (counter = 0; counter < 10; counter++)
 	{
 		for (letter = 0; letter < 26; letter++)
 		{
